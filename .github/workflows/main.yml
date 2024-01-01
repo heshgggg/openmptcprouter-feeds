@@ -9,7 +9,7 @@ jobs:
   build:
     strategy:
       matrix:
-        OMR_TARGET: [ramips]
+        OMR_TARGET: [mipsel_24kc]
         OMR_KERNEL: [5.4, 6.1]
     runs-on: ubuntu-latest
     continue-on-error: true
